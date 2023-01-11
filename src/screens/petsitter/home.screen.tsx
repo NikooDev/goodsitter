@@ -1,11 +1,12 @@
 import React from 'react'
+import UserLayout from '@Component/layouts/user.layout'
 
-const HomeScreen = () => {
+const HomePetsitterScreen = () => {
 	return (
-		<>
+		<UserLayout>
 
-		</>
+		</UserLayout>
 	)
 }
 
-export default HomeScreen
+export default HomePetsitterScreen

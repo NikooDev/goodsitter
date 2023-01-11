@@ -1,11 +1,12 @@
 import React from 'react'
+import GuestLayout from '@Component/layouts/guest.layout'
 
-const HomeScreen = () => {
+const HomeGuestScreen = () => {
 	return (
-		<>
+		<GuestLayout>
 
-		</>
+		</GuestLayout>
 	)
 }
 
-export default HomeScreen
+export default HomeGuestScreen

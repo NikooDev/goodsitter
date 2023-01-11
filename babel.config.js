@@ -25,7 +25,7 @@ module.exports = function(api) {
 						'@Container': './src/containers',
 						'@Helper': './src/helpers',
 						'@Hook': './src/hooks',
-						'@Stack': './src/stack/screens.tsx',
+						'@Stack': './src/stack/index.tsx',
 						'@Screen': './src/screens',
 						'@Service': './src/services',
 						'@Store': './src/store',

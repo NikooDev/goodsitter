@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "es2017",
     "lib": [
-      "es6"
+      "es6",
+      "DOM"
     ],
     "jsx": "react-native",
     "noEmit": true,
@@ -32,7 +33,7 @@
       "@Container/*": ["./src/containers/*"],
       "@Helper/*": ["./src/helpers/*"],
       "@Hook/*": ["./src/hooks/*"],
-      "@Stack": ["./src/stack/screens.tsx"],
+      "@Stack": ["./src/stack/index.tsx"],
       "@Screen/*": ["./src/screens/*"],
       "@Service/*": ["./src/services/*"],
       "@Store/*": ["./src/store/*"],
